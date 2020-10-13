@@ -1,0 +1,30 @@
+.header {
+    height: 60px;
+    width: 100%;
+    background-color: #111d5e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    z-index: 200;
+}
+
+.logoName {
+    color: #fff;
+    padding-left: 5px;
+}
+.hamburgerBox {
+    margin-right: 5px;
+    width: 30px;
+    height: 20px;
+    display: grid;
+    grid-row: auto;
+    justify-content: center;
+}
+.hamburgerLine {
+    height: 3px;
+    width: 20px;
+    background-color: #fff;
+}
