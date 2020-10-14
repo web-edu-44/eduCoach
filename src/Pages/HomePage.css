@@ -7,16 +7,20 @@
 }
 
 .headerText {
-    background-color: rgba(255,255,255,0.3);
-    width: 60%;
+    width: 70%;
     height: 415px;
     margin: 75px auto;
-    padding: 20px 0;
+    padding-left: 15px;
     text-align: center;
-    font-size: 1.5rem;
-    
+    font-size: 1.5rem;    
 }
 
+.headerText h1 {
+    margin-bottom: 4px;
+}
+.headerText h3 {
+    margin-top: 4px;
+}
 .mainImg {
     height: 89vh;
     width: 100%;
@@ -26,9 +30,9 @@
 }
 
 .imgCover {
+    background-color: rgba(0,0,0,0.5);
     height: 89vh;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     z-index: 100;
 }
@@ -55,6 +59,25 @@ img {
     right: 20px;
     z-index: 200;
 }
+
+/***   Home Page Details  ***/
+.detailsPart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.detailsContainer {
+    width: 250px;
+    height: 400px;
+    background-color: #fff;
+    border: 2px solid rgba(177, 177, 218, 0.842);
+    margin: 8px auto;
+}
+
+
+/***  Responsive for small screen  ***/
 @media only screen and (max-width: 767px) {
     .mainImg {
         background-size: contain;

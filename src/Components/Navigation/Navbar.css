@@ -1,0 +1,155 @@
+/***  Toolbar Style  ***/
+.toolbar-nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.toolbar-nav-items a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.toolbar-nav-items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.toolbar-nav-items li {
+    padding: 0 0.5rem;
+}
+
+.toolbar-nav-items a:hover,
+.toolbar-nav-items a:active,
+.toolbar-nav-items a.active {
+    color: #8898ec;
+}
+
+@media (max-width: 767px) {
+    .toolbar-nav-items {
+        display: none;
+    }
+
+}
+
+.toolbar-nav-items a.active::after,
+.toolbar-nav-items a:hover::after {
+    display: block;
+    height: 1px;
+    background-color: #8898ec;
+    content: ' ';
+    width: 50px;
+    margin: 0 auto;
+}
+
+/***  Navbar Style  ***/
+.back-drop {
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.side-nav {
+    height: 100%;
+    width: 60%;
+    max-width: 350px;
+    box-shadow: 1px 0px 7px rgba(0,0,0,0.5);
+    position: fixed;
+    top: 50px;
+    right: 0;
+    z-index: 300;
+    background-color: #eee;
+    text-align: center;
+    justify-content: center;
+}
+.side-nav a {
+    text-decoration: none;
+    font-size: 120%;
+    color: rgb(13,23,48);
+}
+
+.side-nav a:hover,
+.side-nav a:active,
+.side-nav a.active {
+    color: tomato;
+}
+.side-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.side-nav li {
+    padding: 15px 0;
+}
+
+/***  Hamburger Button  ***/
+.toggle-btn {
+	width: 30px;
+	height: 24px;
+	background: rgb(16, 16, 66);
+	display: flex;
+	cursor: pointer;
+	padding: 0;
+	box-sizing: border-box;
+	border-style: none;
+}
+
+.hamburger {
+    display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 30px;
+	padding: 1rem;
+	margin-top: 7px;
+}
+/* Hamburger line */
+.hamburger div {
+	position: relative;
+	width: 100%;
+	height: 2px;
+    background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.4s ease;
+}
+.hamburger div:before,
+.hamburger div:after {
+	content: '';
+	position: absolute;
+	z-index: 1;
+	top: -10px;
+	width: 100%;
+	height: 2px;
+	background: inherit;
+}
+.hamburger div:after {
+	top: 10px;
+}
+/* Toggle animation */
+.open > div {
+    transform: rotate(135deg);
+	background-color: #fff;
+}
+/* Turn lines into X */
+.open > div:before ,
+.open > div:after {
+	top: 0;
+    transform: rotate(90deg);
+	background-color: #fff;
+}
+
+@media (min-width: 767px) {
+    .hamburger {
+        display: none;
+    }
+}
+
