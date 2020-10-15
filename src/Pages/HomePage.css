@@ -69,11 +69,21 @@ img {
     margin-top: 15px;
 }
 .detailsContainer {
-    width: 250px;
+    width: 340px;
     height: 400px;
     background-color: #fff;
     border: 2px solid rgba(177, 177, 218, 0.842);
     margin: 8px auto;
+}
+.detailsContainer h4 {
+    margin-top: 0;
+    padding-top: 3%;
+    color: #fff;
+    letter-spacing: 2.5px;
+}
+.detailsContainer div {
+    background-color: rgb(74, 74, 199);
+    height: 50px;
 }
 
 

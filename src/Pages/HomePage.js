@@ -26,9 +26,6 @@ export const Home = ()=> {
             <div className='chatIcon'><img src={Chat} alt='chat'></img></div>
             <section className='detailsPart'>
                 <Details/>
-                <Details/>
-                <Details/>
-                <Details/>
             </section>
         </div>
     )
