@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/eduCoach/static/css/main.fab1086c.chunk.css",
+    "main.js": "/eduCoach/static/js/main.b0c8137a.chunk.js",
+    "main.js.map": "/eduCoach/static/js/main.b0c8137a.chunk.js.map",
+    "runtime-main.js": "/eduCoach/static/js/runtime-main.7b25f8cf.js",
+    "runtime-main.js.map": "/eduCoach/static/js/runtime-main.7b25f8cf.js.map",
+    "static/js/2.585dad1c.chunk.js": "/eduCoach/static/js/2.585dad1c.chunk.js",
+    "static/js/2.585dad1c.chunk.js.map": "/eduCoach/static/js/2.585dad1c.chunk.js.map",
+    "index.html": "/eduCoach/index.html",
+    "precache-manifest.280a5b7590e6b8f97d5d683b503b3eae.js": "/eduCoach/precache-manifest.280a5b7590e6b8f97d5d683b503b3eae.js",
+    "service-worker.js": "/eduCoach/service-worker.js",
+    "static/css/main.fab1086c.chunk.css.map": "/eduCoach/static/css/main.fab1086c.chunk.css.map",
+    "static/js/2.585dad1c.chunk.js.LICENSE.txt": "/eduCoach/static/js/2.585dad1c.chunk.js.LICENSE.txt",
+    "static/media/block-chat.png": "/eduCoach/static/media/block-chat.e9155a64.png",
+    "static/media/booking.png": "/eduCoach/static/media/booking.c619f9a8.png",
+    "static/media/HomePage.css": "/eduCoach/static/media/pexels-andrea-piacquadio-3932232.efe1f7ec.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7b25f8cf.js",
+    "static/js/2.585dad1c.chunk.js",
+    "static/css/main.fab1086c.chunk.css",
+    "static/js/main.b0c8137a.chunk.js"
+  ]
+}
