@@ -9,6 +9,7 @@ import { Counselors } from './Pages/CounselorsPage';
 import { Blog } from './Pages/BlogPage';
 import { About } from './Pages/AboutPage';
 import { SideMenu } from './Components/Navigation/SideMenu';
+import { Footer } from './Components/Footer'
 
 
 class App extends Component{
@@ -45,6 +46,7 @@ render() {
               <Route path="/BlogPage" component={Blog}/>
               <Route path="/AboutPage" component={About}/>
             </Layout>
+            <Footer/>
         </React.Fragment>
       </BrowserRouter>
     );
