@@ -23,10 +23,10 @@ export const Details = (props)=> {
 
     return (
         <>
-            {data.map(i => 
-                <div className='detailsContainer'>
-                    <div><h4>{i.name}</h4></div>
-                    <p>{i.summary}</p>
+            {data.map((item,indx) => 
+                <div className='detailsContainer' key={indx}>
+                    <div><h4>{item.name}</h4></div>
+                    <p>{item.summary}</p>
                 </div>
             )}
         </>

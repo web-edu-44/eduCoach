@@ -8,7 +8,7 @@
 .header {
     height: 60px;
     width: 100%;
-    background-color: #111d5e;
+    background-color: transparent;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -22,6 +22,9 @@
     margin: 0;
     position: fixed;
     z-index: 200;
+}
+.header.scroll {
+    background-color: #111d5e;
 }
 
 .logoName {
