@@ -76,7 +76,7 @@ img {
     height: 500px;
     overflow: hidden;
     background-color: #fff;
-    border: 2px solid rgba(177, 177, 218, 0.842);
+    /* border: 2px solid rgba(177, 177, 218, 0.842); */
     margin: 15px ;
     cursor: pointer;
     z-index: 100;   
@@ -92,6 +92,7 @@ img {
 .detailsContainer:hover {
     background-color: rgba(7, 7, 107, 0.2);
     color: #fff;
+    border: none;
 }
 
 .detailsContainer h4 {
