@@ -90,7 +90,7 @@ img {
 } */
 
 .detailsContainer:hover {
-    background-color: rgba(177, 177, 218, 0.5);
+    background-color: rgba(7, 7, 107, 0.2);
     color: #fff;
 }
 
@@ -109,6 +109,9 @@ img {
 .detailsContainer p {
     text-align: justify;
     padding: 3px 20px;
+    margin-top: 0;
+    margin-bottom: 3%;
+    min-height: 120px;
 }
 
 .detailsImage {
@@ -116,7 +119,6 @@ img {
     top: -20px;
     border: 3px solid rgb(74, 74, 199, 0.9);
     border-radius: 5%;
-    /* margin-top: 5px; */
     width: 90%;
     height: 50%;
     z-index: 200;
@@ -127,15 +129,13 @@ img {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(12, 12, 104, 0.9);
     color: #fefefe;
+    border-radius: 20px;
+    letter-spacing: 1.5px;
+
 }
 
 .homeReadmore:hover {
     background-color: rgb(74, 74, 199, 0.9);
-}
-
-.middle {
-    position: relative;
-    top: -100px;
 }
 
 /***  Responsive for small screen  ***/
@@ -163,6 +163,7 @@ img {
 
     .detailsContainer {
         width: 400px;
+        top: -70px;
     }
 }
 
