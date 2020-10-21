@@ -78,7 +78,7 @@ img {
     background-color: #fff;
     /* border: 2px solid rgba(177, 177, 218, 0.842); */
     margin: 15px ;
-    cursor: pointer;
+    /* cursor: pointer; */
     z-index: 100;   
     position: relative;
     top: -80px;
@@ -132,6 +132,7 @@ img {
     color: #fefefe;
     border-radius: 20px;
     letter-spacing: 1.5px;
+    cursor: pointer;
 
 }
 

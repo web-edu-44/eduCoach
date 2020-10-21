@@ -21,7 +21,7 @@ export const Details = (props)=> {
         },
         {
             name:'blog',
-            summary: 'Reading on a variety of topics and that will help widen you views. Reading impacts knowledge',
+            summary: 'Read on a variety of topics and that will help widen you view. Reading impacts knowledge',
             image: blog,
             route: '/BlogPage',
         },
