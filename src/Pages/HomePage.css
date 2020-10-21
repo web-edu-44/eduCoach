@@ -93,6 +93,8 @@ img {
     background-color: rgba(7, 7, 107, 0.2);
     color: #fff;
     border: none;
+    transition: all .8s ease;
+    -webkit-transition: all .8s ease;
 }
 
 .detailsContainer h4 {
