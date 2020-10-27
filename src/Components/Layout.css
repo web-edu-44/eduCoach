@@ -14,5 +14,6 @@
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
-    background-color: #eee;
+    background: rgb(26,23,76);
+background: linear-gradient(180deg, rgba(26,23,76,1) 0%, rgb(65, 65, 168) 20%, rgb(215, 216, 230) 100%);
 }

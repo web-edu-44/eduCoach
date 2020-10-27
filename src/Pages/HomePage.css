@@ -82,6 +82,8 @@ img {
     z-index: 100;   
     position: relative;
     top: -80px;
+    border: 1px solid rgba(17, 29, 94, 0.5);
+    box-shadow: 3px 3px 8px rgba(17, 29, 94, 0.5);
 }
 
 /* .detailsContainer:nth-child(2), .detailsContainer:nth-child(3) {

@@ -1,5 +1,55 @@
+/* All Sub Pages Style like [Students, Counselors, Blog, and About]*/
+
+/*** Public Style for all sub pages ***/
 .pageContainer {
     margin-top: 60px;
     height: 95vh;
-    
+}
+
+/*** Students Page Style ***/
+.studentHeader {
+    width: 95vw;
+    display: flex;
+    text-align: start;
+    justify-content: space-between;
+    margin-top: 10%;
+    color: #fff;
+}
+/* .studentHeader li{
+    font-size: 1.3em;
+} */
+.studentImg {
+    background-image: url('../Components/assets/student1.jpg');
+    width: 400px;
+    height: 390px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 3px solid #fff;
+}
+.cover {
+    background-color: rgba(0, 0, 0, 0.424);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+    .studentHeader {
+        flex-direction: column-reverse;
+        font-size: inherit;
+    }
+    .studentImg {
+        width: 280px;
+        height: 300px;
+        margin: 0 auto;
+    }
 }
